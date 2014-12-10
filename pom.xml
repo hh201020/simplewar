@@ -31,7 +31,7 @@ def environment = System.getenv()
 println "----Environment"
 environment.each{ println it } 
 println "----Property"
-
+println(System.getProperty("longname"))
 </source>
 </configuration>
 </execution></executions>
