@@ -32,6 +32,8 @@ println "----Environment"
 environment.each{ println it } 
 println "----Property"
 println(System.getProperty("longname"))
+println "----Project and session"
+println "Project: ${project.class}"
 </source>
 </configuration>
 </execution></executions>
