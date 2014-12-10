@@ -27,18 +27,6 @@
 <phase>verify</phase>
 <configuration>
 <source>
-def environment = System.getenv()
-println "----Environment"
-environment.each{ println it } 
-println "----Property"
-println(System.getProperty("longname"))
-println "----Project and session"
-println "Project: ${project.class}"
-println "Session: ${session.class}"
-println "longname: ${project.properties.longname}"
-println "Project name: ${project.name}"
-println "JENKINS_HOME: 
-${project.properties.JENKINS_HOME}"
 </source>
 </configuration>
 </execution></executions>
