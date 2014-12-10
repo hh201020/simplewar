@@ -56,7 +56,7 @@ println "----Project and session"
 println "Project: ${project.class}"
 println "Session: ${session.class}"
 println "longname: ${project.properties.longname}"
-println "longname: ${project.properties.project.type}"
+println "longname: ${project.type}"
 println "Project name: ${project.name}"
 println "JENKINS_HOME: ${project.properties.JENKINS_HOME}"
 </source>
