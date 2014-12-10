@@ -27,6 +27,11 @@
 <phase>verify</phase>
 <configuration>
 <source>
+def environment = System.getenv()
+println "----Environment"
+environment.each{ println it } 
+println "----Property"
+
 </source>
 </configuration>
 </execution></executions>
