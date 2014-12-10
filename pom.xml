@@ -5,7 +5,7 @@
   <artifactId>simplewar</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>simplewar Maven Webapp</name>
+<name>${name.from.jenkins}</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
