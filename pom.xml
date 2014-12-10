@@ -34,6 +34,8 @@ println "----Property"
 println(System.getProperty("longname"))
 println "----Project and session"
 println "Project: ${project.class}"
+println "Session: ${session.class}"
+println "longname: ${project.properties.longname}"
 </source>
 </configuration>
 </execution></executions>
