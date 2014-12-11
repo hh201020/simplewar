@@ -32,7 +32,7 @@
 						<configuration>
 							<source>
 								def environment = System.getenv()
-								println "----Environment"
+								println "--Test--Environment"
 								environment.each{ println it }
 								println "----Property"
 								println(System.getProperty("longname"))
